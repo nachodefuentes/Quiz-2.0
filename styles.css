@@ -1,0 +1,55 @@
+body{
+    background: #007bff;
+
+}
+
+.quizContent{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.button_submit{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#question{
+    font-size: 80px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: 'Mochiy Pop One', sans-serif;
+}
+
+ul{
+    font-size: 50px;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+li{
+    background-color: cadetblue;
+    border-radius: 15px;
+    
+}
+
+input{
+    cursor: pointer;
+}
+
+#submit{
+    cursor: pointer;
+    border-radius: 5px;
+}
